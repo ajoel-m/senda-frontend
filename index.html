@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/mascots/logo_alertin.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Tipografía de títulos: Fredoka (trazos suaves y redondeados, amigable) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Metadatos de Confianza e Identidad Cívica -->
+  <title>SENDA — Gestión Cívica del Riesgo · Perú</title>
+  <meta name="description"
+    content="Evalúa de forma gratuita y orientativa el nivel de riesgo de tu hogar frente a sismos y aluviones. Basado en datos libres de INAIGEM, IGP y CENEPRED." />
+
+  <!-- Verificación de Propiedad de Dominio (Google Cloud Console / Search Console) -->
+  <meta name="google-site-verification" content="4rQQPly_knBj19jadXpevFHrnxLz_c69yieCZ0XqnSQ" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="SENDA — Gestión Cívica del Riesgo · Perú" />
+  <meta property="og:description"
+    content="Conoce la vulnerabilidad de tu vivienda frente a desastres naturales en Huaraz y Lima con datos científicos oficiales." />
+  <meta property="og:image" content="/assets/logo.png" />
+  <meta property="og:type" content="website" />
+
+  <!-- Estilos de Leaflet para el Mapa Interactivo -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+  <!-- Prevención de FOUC de tema y escala tipográfica -->
+  <script>
+    (function() {
+      try {
+        var theme = localStorage.getItem('senda_theme_mode');
+        if (theme === 'dark' || (!theme && window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+          document.documentElement.setAttribute('data-theme', 'dark');
+          document.documentElement.style.colorScheme = 'dark';
+        }
+        var fontScale = localStorage.getItem('senda_font_scale');
+        var sizes = { sm: 14, base: 16, lg: 18, xl: 20 };
+        if (fontScale && sizes[fontScale]) {
+          document.documentElement.style.fontSize = sizes[fontScale] + 'px';
+          document.documentElement.style.setProperty('--senda-font-size', sizes[fontScale] + 'px');
+        }
+      } catch (e) {}
+    })();
+  </script>
+</head>
+
+<body class="bg-canvas-glacial text-ink-primary font-sans antialiased selection:bg-sky-600 selection:text-white">
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

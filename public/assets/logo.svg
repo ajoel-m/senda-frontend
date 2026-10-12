@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Fondo circular sutil opcional o transparente -->
+  <rect width="64" height="64" rx="12" fill="#FAFAF7" />
+  
+  <!-- Escudo / Silueta de Casa Cívica -->
+  <path d="M32 6L8 22V50C8 52.2091 9.79086 54 12 54H52C54.2091 54 56 52.2091 56 50V22L32 6Z" fill="#F2EBDD" stroke="#123B5D" stroke-width="2.5" stroke-linejoin="round"/>
+  
+  <!-- Cumbre Andina / Techo E.030 Interno -->
+  <path d="M32 14L16 26H48L32 14Z" fill="#176B78" />
+  
+  <!-- Muros Estructurales & Escudo Central -->
+  <path d="M32 26V54" stroke="#123B5D" stroke-width="2.5" stroke-dasharray="3 3"/>
+  <path d="M22 34C22 34 32 30 32 30C32 30 42 34 42 34C42 44 32 48 32 48C32 48 22 44 22 34Z" fill="#123B5D" stroke="#176B78" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="32" cy="38" r="3" fill="#FAFAF7" />
+</svg>

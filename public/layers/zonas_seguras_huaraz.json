@@ -1,0 +1,367 @@
+{
+  "type": "FeatureCollection",
+  "threat": "evacuation_huaraz",
+  "count": 20,
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-1",
+        "nombre": "U.P. San Pedro",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Shancayan",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5285083229575,
+          -9.5118467080476
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-2",
+        "nombre": "I.E. Gran Unidad Mariscal Toribio de Luzuriaga",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Centenario",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.53039838625288,
+          -9.51532642722714
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-3",
+        "nombre": "Parque Shancayan",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Shancayan",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52565320085371,
+          -9.513836281297916
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-4",
+        "nombre": "I.S.T. Eleazar Guzman Barron",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Shancayan",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52539034436894,
+          -9.516039894828708
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-5",
+        "nombre": "UNASAM",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Shancayan",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5243601972881,
+          -9.518095182200218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-6",
+        "nombre": "I.E.I. Cisea De Nicrupampa",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Nicrupampa",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52327747891027,
+          -9.52051408770902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-7",
+        "nombre": "Losa deportiva Virgen del Rosario",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Nicrupampa",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52226861068775,
+          -9.52267576937198
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-8",
+        "nombre": "Fullbaso",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Nicrupampa",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5191293532409,
+          -9.523988800098373
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-9",
+        "nombre": "Plaza de Armas",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Centro",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52884753299266,
+          -9.53021224030004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-10",
+        "nombre": "Parque Pro Ornato",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Huarupampa",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.53089781357401,
+          -9.529974417766196
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-11",
+        "nombre": "Sport Soledad",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Soledad",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5245091492962,
+          -9.530778007591108
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-12",
+        "nombre": "Plazuela de la Soledad",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Soledad",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52287192890525,
+          -9.531388835993848
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-13",
+        "nombre": "Parque Santa Rosa",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Belen",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.53135843827118,
+          -9.532270031066655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-14",
+        "nombre": "Parque los Inkas",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Belen",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.53185411049964,
+          -9.532965974902558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-15",
+        "nombre": "Plazuela de Belen",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Belen",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.5294208104691,
+          -9.532695608232496
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-16",
+        "nombre": "Parque Las Banderas",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Belen",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52829928946736,
+          -9.532224969954964
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-17",
+        "nombre": "Parque Santiago Antunez de Mayolo",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Soledad",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52511497090883,
+          -9.532635526750255
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-18",
+        "nombre": "Piscina Temperada Municipal",
+        "tipo": "zona_segura",
+        "tipo_peligro": "alluvium",
+        "sector": "Pedregal",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52103944369712,
+          -9.536711053961978
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-19",
+        "nombre": "Ministerio de Transportes y Comunicaciones",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Villon Alto",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52772350859593,
+          -9.539950447212577
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "safe-zone-20",
+        "nombre": "Parque Bicentenario",
+        "tipo": "refugio_temp",
+        "tipo_peligro": "alluvium",
+        "sector": "Pedregal",
+        "ciudad": "Huaraz"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.52276678631146,
+          -9.537006454582967
+        ]
+      }
+    }
+  ]
+}
